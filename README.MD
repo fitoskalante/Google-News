@@ -1,6 +1,6 @@
-# CoderSchool FTW - * Name of Your Project Here *
+# CoderSchool FTW - * Google News *
 
-Created with love by: <Your Name Here>
+Created with love by: <Ricardo Cuevas>
   
 One or two sentence summary of your project. 
 
@@ -14,38 +14,31 @@ To create a GIF, use [LiceCap](http://www.cockos.com/licecap/), [RecordIt](http:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 ```
 
-## User Stories
+## Required Stories
 
-The following **required** functionalities are completed (this is a sample):
+The following **required** functionalities are completed:
 
-* [x] Top navigation bar with dropdown buttons
-* [x] Banner with background image, white text, and a green button
-* [x] Color or text change when mouse hovers over
-* [x] At least 3 different body sections with different background images or colors
-* [x] 2 (or 3) card items per row in a body section
-* [x] Footer with social icons that link to the actual social pages
+* [x] The user can see a list of the 20 latest top news stories, loaded dynamically from newsapi.
+* [x] For each story, the user sees a headline, the source, a link to more, and an image.
+* [x] The user can see the total number of stories currently shown.
 
 The following **optional** features are implemented:
 
 * [x] Add favicon to the page
-* [ ] Animation on an element
-* [ ] Navigation, contact, sitemap, privacy policy, term of use, etc in footer
-* [ ] Bootstrap carousel for banner
-* [ ] Banner with background video
-
-The following **additional** features are implemented:
-
-* [x] List anything else that you can get done to improve the page!
+* [x] The user can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should simply be added to the bottom.
+* [x] The user can see an updated number of stories currently shown.
+* [x] Add favicon to the page
+* [x] The user can see how long ago the story was published in a human-friendly format; e.g. "15 minutes ago". To accomplish this, we recommend you use momentjs. Please load it into your page using cdnjs or jsdelivr (these are called CDNs).
 
 ## Time Spent and Lessons Learned
 
-Time spent: **X** hours spent in total.
+Time spent: **10** hours spent in total.
 
-Describe any challenges encountered while building the app.
+It has been very challenging to implement and interact with an API, but at the same time it is motivating to understand the amount of data that you can manage. I am going to keep working hard improve my technical skills.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2019] [Ricardo Cuevas]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
